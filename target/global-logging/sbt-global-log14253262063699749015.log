@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/ashalonkin/otus/HomeWork3/}homework3/products {file:/home/ashalonkin/otus/HomeWork3/}homework3/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to /home/ashalonkin/otus/HomeWork3/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/DataSetTask3.scala:13:18: encountered unrecoverable cycle resolving import.[0m
+[0m[[0m[31merror[0m] [0m[0mNote: this is often due in part to a class depending on a definition nested within its companion.[0m
+[0m[[0m[31merror[0m] [0m[0mIf applicable, you may wish to try moving some members into another object.[0m
+[0m[[0m[31merror[0m] [0m[0m    import spark.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/DataSetTask3.scala:21:45: could not find implicit value for parameter spark: org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val taxiFactsDF: DataFrame = readParquet("src/main/data/yellow_taxi_jan_25_2018")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/DataSetTask3.scala:22:57: Unable to find encoder for type org.hw3.otus.structure.TaxiFacts. An implicit Encoder[org.hw3.otus.structure.TaxiFacts] is needed to store org.hw3.otus.structure.TaxiFacts instances in a Dataset. Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.[0m
+[0m[[0m[31merror[0m] [0m[0m    val taxiFactsDS: Dataset[TaxiFacts] = taxiFactsDF.as[TaxiFacts][0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/ReadAndWrite.scala:41:29: org.apache.spark.sql.DataFrame does not take type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def writeDFToPostgres(ds: DataFrame[TaxiFacts], url: String, tableName: String, connectionProperties: Properties) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/RDDTask2.scala:10:18: encountered unrecoverable cycle resolving import.[0m
+[0m[[0m[31merror[0m] [0m[0mNote: this is often due in part to a class depending on a definition nested within its companion.[0m
+[0m[[0m[31merror[0m] [0m[0mIf applicable, you may wish to try moving some members into another object.[0m
+[0m[[0m[31merror[0m] [0m[0m    import spark.implicits._[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/RDDTask2.scala:18:45: could not find implicit value for parameter spark: org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val taxiFactsDF: DataFrame = readParquet("src/main/data/yellow_taxi_jan_25_2018")[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/RDDTask2.scala:19:57: Unable to find encoder for type org.hw3.otus.structure.TaxiFacts. An implicit Encoder[org.hw3.otus.structure.TaxiFacts] is needed to store org.hw3.otus.structure.TaxiFacts instances in a Dataset. Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.[0m
+[0m[[0m[31merror[0m] [0m[0m    val taxiFactsDS: Dataset[TaxiFacts] = taxiFactsDF.as[TaxiFacts][0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 19 апр. 2021 г., 12:38:51[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

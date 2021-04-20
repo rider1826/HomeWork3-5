@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/ashalonkin/otus/HomeWork3/project/target/.sbt-compilation-infos/homework3-test/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/test/scala/TestSharedSparkSession.scala:29:16: comparing values of types Int and Null using `!=` will always yield true[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (vendorId  != null ) shouldBe(true)[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/ashalonkin/otus/HomeWork3/project/target/.sbt-compilation-infos/homework3-test/.sbt-idea-lock.[0m

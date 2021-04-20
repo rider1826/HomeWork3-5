@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/ashalonkin/otus/HomeWork3/}homework3/products {file:/home/ashalonkin/otus/HomeWork3/}homework3/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ashalonkin/otus/HomeWork3/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/test/scala/TestSharedSparkSession.scala:18:22: overloaded method value foreach with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (func: org.apache.spark.api.java.function.ForeachFunction[org.apache.spark.sql.Row])Unit <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (f: org.apache.spark.sql.Row => Unit)Unit[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (org.apache.spark.sql.Row => org.scalatest.Assertion)[0m
+[0m[[0m[31merror[0m] [0m[0m  actualDistribution.foreach { c =>[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 19 апр. 2021 г., 15:53:22[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

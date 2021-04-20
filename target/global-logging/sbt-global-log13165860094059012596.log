@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/ashalonkin/otus/HomeWork3/}homework3/products {file:/home/ashalonkin/otus/HomeWork3/}homework3/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ashalonkin/otus/HomeWork3/target/scala-2.12/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/test/scala/TestSharedSparkSession.scala:29:16: comparing values of types Int and Null using `!=` will always yield true[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (vendorId  != null ) shouldBe(true)[0m
+[0m[[0m[33mwarn[0m] [0m[0m               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 20 апр. 2021 г., 15:04:36[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/home/ashalonkin/otus/HomeWork3/}homework3/products {file:/home/ashalonkin/otus/HomeWork3/}homework3/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ashalonkin/otus/HomeWork3/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ashalonkin/otus/HomeWork3/src/main/scala/org/hw3/otus/Main.scala:13:1: identifier expected but 'object' found.[0m
+[0m[[0m[31merror[0m] [0m[0mobject Main extends App{[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 12 апр. 2021 г., 12:13:08[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
